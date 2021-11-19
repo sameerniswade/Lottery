@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+.lottery {
+  text-align: center;
+
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #676767;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  /* width: 70%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  padding: 1rem;
+  margin-top: 0rem;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.manager-text {
+  font-size: 1.2rem;
+  color: #808080;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.manager {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #676767;
+}
+
+.people-money {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.people {
+  margin: 2rem;
+}
+
+.people-text {
+  font-size: 1.2rem;
+  color: #808080;
+}
+
+.people-value {
+  font-size: 1.5rem;
+
+  color: #676767;
+}
+
+.money {
+  margin: 2rem;
+}
+
+.money-text {
+  font-size: 1.2rem;
+  color: #808080;
+}
+
+.money-value {
+  font-size: 1.5rem;
+
+  color: #676767;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.form-header {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.form-input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1.5px solid #808080;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.form-button {
+  padding: 0.5rem 2rem;
+  border: none;
+
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  font-family: "Lato", sans-serif;
+  background-color: #1a73e8;
+}
+
+.msg {
+  margin: 1rem;
+}
+
+.pick {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pick-text {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.pick-button {
+  padding: 0.5rem 2rem;
+  border: none;
+
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  font-family: "Lato", sans-serif;
+  background-color: #1a73e8;
+}
